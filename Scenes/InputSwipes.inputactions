@@ -1,0 +1,52 @@
+{
+    "name": "InputSwipes",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "114160c9-4882-4ac7-ab05-b8083203a1fc",
+            "actions": [
+                {
+                    "name": "PrimaryContactBool",
+                    "type": "PassThrough",
+                    "id": "faab46e9-b67b-457f-9c5e-21d41db448eb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "PrimaryPosition",
+                    "type": "PassThrough",
+                    "id": "95f59518-8fac-47ee-ab1f-168a3a376de1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1e5a8ee4-5ca1-4d61-aff1-c59b69134951",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryContactBool",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f2e3076-5378-4dd9-a5e0-27acdf931d11",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
